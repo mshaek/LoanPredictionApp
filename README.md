@@ -19,3 +19,14 @@ This document has been organised as follows- uploading and initial preprocessing
 
 
 A quick demo of the app is available in this link: https://youtu.be/ZAkbBGR6Mng
+
+Repository Structure:
+* Model_Output_Screenshots- This Contains Some screenshots taken after successful execution of the model app
+* data- this folder contains the preprocessed dataset "merged.csv" which was derived from the three dataset given in the dropbox link
+* notebooks - Google colab notebooks in 3 parts. First part where EDA and preprocessing done
+             Model training was done on part two.
+             App using the logistic regression model
+* templates - Folder contains the HTML template
+* README.md - Read me File
+* app.py - Flask App
+* logistic_regression_model.pkl - Model downloaded using pickle
